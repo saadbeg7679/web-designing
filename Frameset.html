@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Frameset</title>
+</head>
+
+<frameset rows="83,*">
+    <frame src="header.html" name="header" scrolling="no" noresize>
+
+    <frameset cols="250,*">
+        <frame src="navigation.html" name="navigation" noresize>
+        <frame src="content.html" name="content" noresize>
+    </frameset>
+
+    <noframes>
+        <body>
+            Your browser does not support frames.
+        </body>
+    </noframes>
+</frameset>
+
+</html>
